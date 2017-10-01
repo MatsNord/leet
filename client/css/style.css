@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 400px;
+}
+input {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 10px auto;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+button {
+	display: block;
+}
+a {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: darkgreen;
+}
+
