@@ -7,6 +7,9 @@ const adapter = new FileAsync('db.json');
 const base62 = require('base62');
 let api;
 
+base62.setCharacterSet("fcD6217QL8pgkMYsWKdbOAPriIya5JGVjB43SnNuZTHEzXlxq9ewvFURhto0mC");
+
+
 const app = express();
 
 app.use(express.static(__dirname + '/../client'));
